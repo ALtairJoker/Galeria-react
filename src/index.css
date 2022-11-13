@@ -11,3 +11,52 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+div {
+  color: #ccc;
+  background-color: #6b644c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.tituloHeader {
+  margin: 1.5em;
+  padding: .5em;
+  text-shadow: rgb(224, 224, 224) 1px 0 10px;
+  font-size: 3em;
+  border: 3px dotted #ccc;
+
+}
+
+.tarjeta {
+  margin: 3em;
+  -webkit-box-shadow: 17px 18px 38px -3px rgba(0, 0, 0, 0.55);
+  -moz-box-shadow: 17px 18px 38px -3px rgba(0, 0, 0, 0.55);
+  box-shadow: 17px 18px 38px -3px rgba(0, 0, 0, 0.55);
+}
+
+.cuerpo {
+  background-color: #b84343;
+  width: 100%;
+}
+
+.titulo {
+  background-color: #b84343;
+  text-shadow: rgb(224, 224, 224) 1px 0 10px;
+}
+
+.contenedorFooter {
+  background-color: #b84343;
+}
+
+.footer {
+  text-align: center;
+}
+
+hr {
+  height: 10px;
+  background-color: black;
+}
